@@ -16,6 +16,11 @@ it('find element by id', ()=>{  //ONLY to execute only this TC
         cy.get('.class name');
          })
 
+        / it('find element by id', ()=>{  //pou tester commit
+            cy.visit('/');
+            cy.get('# id name');
+             }) / 
+
  it('find the first element ', ()=>{  
  cy.visit('/');
  cy.get('html inspect').first();
